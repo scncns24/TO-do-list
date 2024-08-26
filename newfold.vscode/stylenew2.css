@@ -58,7 +58,7 @@ body {
   color: var(--primary-color);
 }
 
-.ribbon__red {
+.ribbon__orange {
   position: absolute;
   top: 50%;
   transform: translateY(-40%);
