@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TO DO LIST</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./todo1.css">
+</head>
+<body>
+  <div class="container">
+    <h1>To Do List</h1>
+    <div class="input-container">
+      <input class="todo-input" placeholder="Add a new task...">
+      <button class="add-button">
+        <i class="fa fa-plus-circle"></i>
+      </button>
+    </div>
+  <nav>
+    <ul class="nav__links" id="nav-links">
+        <li><a href="TODO1.html">Home</a></li>
+        <li><a href="#">Sign in</a></li>
+    </ul>
+  </nav>
+    <div class="filters">
+      <div class="filter" data-filter="completed">Complete</div>
+      <div class="filter" data-filter="pending">Incomplete</div>
+      <div class="delete-all">Delete All</div>
+    </div>
+    <div class="todos-container">
+      <ul class="todos"></ul>
+      <img class="empty-image" src="https://s10.aconvert.com/convert/p3r68-cdx67/a7xpi-agbmw-001.ico" width="100" height="100">
+    </div>
+  </div>
+  <script src="./script2.js"></script>
+</body>
+</html>
